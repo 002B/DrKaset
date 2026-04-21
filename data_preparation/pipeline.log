@@ -1,0 +1,188 @@
+2026-04-21 19:56:35 [INFO] run_pipeline — DrKaset Pipeline เริ่มต้น — step=all
+2026-04-21 19:56:35 [INFO] run_pipeline — พบ 17 ไฟล์ -> เริ่มอ่านไฟล์จาก data/raw
+2026-04-21 19:56:35 [INFO] input_files.loader — กำลัง parse ราคาต้นทุน_ผลผลิต_ราคาขาย.csv (.csv)
+2026-04-21 19:56:35 [INFO] run_pipeline —   ✓ ราคาต้นทุน_ผลผลิต_ราคาขาย.csv → 14 records
+2026-04-21 19:56:35 [INFO] input_files.loader — กำลัง parse cassava_prices_raw.csv (.csv)
+2026-04-21 19:56:35 [INFO] run_pipeline —   ✓ cassava_prices_raw.csv → 20 records
+2026-04-21 19:56:35 [INFO] input_files.loader — กำลัง parse corn_prices_raw.csv (.csv)
+2026-04-21 19:56:35 [INFO] run_pipeline —   ✓ corn_prices_raw.csv → 20 records
+2026-04-21 19:56:35 [INFO] input_files.loader — กำลัง parse rice_raw.csv (.csv)
+2026-04-21 19:56:35 [INFO] run_pipeline —   ✓ rice_raw.csv → 21 records
+2026-04-21 19:56:35 [INFO] input_files.loader — กำลัง parse E-Book-11 รวม.pdf (.pdf)
+2026-04-21 19:56:40 [INFO] run_pipeline —   ✓ E-Book-11 รวม.pdf → 195 records
+2026-04-21 19:56:40 [INFO] input_files.loader — กำลัง parse E-Book-2 มันสำปะหลัง.pdf (.pdf)
+2026-04-21 19:56:40 [INFO] run_pipeline —   ✓ E-Book-2 มันสำปะหลัง.pdf → 15 records
+2026-04-21 19:56:40 [INFO] input_files.loader — กำลัง parse E-Book-3 ปาล์มน้ำมัน.pdf (.pdf)
+2026-04-21 19:56:40 [INFO] run_pipeline —   ✓ E-Book-3 ปาล์มน้ำมัน.pdf → 15 records
+2026-04-21 19:56:40 [INFO] input_files.loader — กำลัง parse E-Book-4 ข้าวโพดเลี้ยงสัตว์.pdf (.pdf)
+2026-04-21 19:56:41 [INFO] run_pipeline —   ✓ E-Book-4 ข้าวโพดเลี้ยงสัตว์.pdf → 15 records
+2026-04-21 19:56:41 [INFO] input_files.loader — กำลัง parse E-Book-3 ปาล์มน้ำมัน.pdf (.pdf)
+2026-04-21 19:56:41 [INFO] run_pipeline —   ✓ E-Book-3 ปาล์มน้ำมัน.pdf → 15 records
+2026-04-21 19:56:41 [INFO] input_files.loader — กำลัง parse E-Book-4 ข้าวโพดเลี้ยงสัตว์.pdf (.pdf)
+2026-04-21 19:56:41 [INFO] run_pipeline —   ✓ E-Book-4 ข้าวโพดเลี้ยงสัตว์.pdf → 15 records
+2026-04-21 19:56:41 [INFO] input_files.loader — กำลัง parse E-Book-5 ข้าวโพดหวาน.pdf (.pdf)
+2026-04-21 19:56:42 [INFO] run_pipeline —   ✓ E-Book-5 ข้าวโพดหวาน.pdf → 15 records
+2026-04-21 19:56:42 [INFO] input_files.loader — กำลัง parse rag_pdf_chunks.csv (.csv)
+2026-04-21 19:56:42 [INFO] run_pipeline —   ✓ rag_pdf_chunks.csv → 2116 records
+2026-04-21 19:56:42 [WARNING] input_files.loader — ไม่รองรับไฟล์ .jsonl — ข้าม rag_pdf_chunks.jsonl
+2026-04-21 19:56:42 [INFO] run_pipeline —   ✓ rag_pdf_chunks.jsonl → 0 records
+2026-04-21 19:56:42 [INFO] input_files.loader — กำลัง parse rag_pdf_chunks_ocr.csv (.csv)
+2026-04-21 19:56:42 [INFO] run_pipeline —   ✓ rag_pdf_chunks_ocr.csv → 2421 records
+2026-04-21 19:56:42 [WARNING] input_files.loader — ไม่รองรับไฟล์ .jsonl — ข้าม rag_pdf_chunks_ocr.jsonl
+2026-04-21 19:56:42 [INFO] run_pipeline —   ✓ rag_pdf_chunks_ocr.jsonl → 0 records
+2026-04-21 19:56:42 [INFO] input_files.loader — กำลัง parse rag_pdf_summary.csv (.csv)
+2026-04-21 19:56:42 [INFO] run_pipeline —   ✓ rag_pdf_summary.csv → 26 records
+2026-04-21 19:56:42 [INFO] input_files.loader — กำลัง parse rag_pdf_summary_ocr.csv (.csv)
+2026-04-21 19:56:42 [INFO] run_pipeline —   ✓ rag_pdf_summary_ocr.csv → 26 records
+2026-04-21 19:56:42 [INFO] run_pipeline — อ่านไฟล์เสร็จ: 4949 records รวม
+2026-04-21 19:57:21 [INFO] run_pipeline — DrKaset Pipeline เริ่มต้น — step=all
+2026-04-21 19:57:21 [INFO] run_pipeline — พบ 17 ไฟล์ -> เริ่มอ่านไฟล์จาก data/raw
+2026-04-21 19:57:21 [INFO] input_files.loader — กำลัง parse ราคาต้นทุน_ผลผลิต_ราคาขาย.csv (.csv)
+2026-04-21 19:57:21 [INFO] run_pipeline —   ✓ ราคาต้นทุน_ผลผลิต_ราคาขาย.csv → 14 records
+2026-04-21 19:57:21 [INFO] input_files.loader — กำลัง parse cassava_prices_raw.csv (.csv)
+2026-04-21 19:57:21 [INFO] run_pipeline —   ✓ cassava_prices_raw.csv → 20 records
+2026-04-21 19:57:21 [INFO] input_files.loader — กำลัง parse corn_prices_raw.csv (.csv)
+2026-04-21 19:57:21 [INFO] run_pipeline —   ✓ corn_prices_raw.csv → 20 records
+2026-04-21 19:57:21 [INFO] input_files.loader — กำลัง parse rice_raw.csv (.csv)
+2026-04-21 19:57:21 [INFO] run_pipeline —   ✓ rice_raw.csv → 21 records
+2026-04-21 19:57:21 [INFO] input_files.loader — กำลัง parse E-Book-11 รวม.pdf (.pdf)
+2026-04-21 19:57:25 [INFO] run_pipeline —   ✓ E-Book-11 รวม.pdf → 195 records
+2026-04-21 19:57:25 [INFO] input_files.loader — กำลัง parse E-Book-2 มันสำปะหลัง.pdf (.pdf)
+2026-04-21 19:57:26 [INFO] run_pipeline —   ✓ E-Book-2 มันสำปะหลัง.pdf → 15 records
+2026-04-21 19:57:26 [INFO] input_files.loader — กำลัง parse E-Book-3 ปาล์มน้ำมัน.pdf (.pdf)
+2026-04-21 19:57:26 [INFO] run_pipeline —   ✓ E-Book-3 ปาล์มน้ำมัน.pdf → 15 records
+2026-04-21 19:57:26 [INFO] input_files.loader — กำลัง parse E-Book-4 ข้าวโพดเลี้ยงสัตว์.pdf (.pdf)
+2026-04-21 19:57:26 [INFO] run_pipeline —   ✓ E-Book-4 ข้าวโพดเลี้ยงสัตว์.pdf → 15 records
+2026-04-21 19:57:26 [INFO] input_files.loader — กำลัง parse E-Book-3 ปาล์มน้ำมัน.pdf (.pdf)
+2026-04-21 19:57:27 [INFO] run_pipeline —   ✓ E-Book-3 ปาล์มน้ำมัน.pdf → 15 records
+2026-04-21 19:57:27 [INFO] input_files.loader — กำลัง parse E-Book-4 ข้าวโพดเลี้ยงสัตว์.pdf (.pdf)
+2026-04-21 19:57:27 [INFO] run_pipeline —   ✓ E-Book-4 ข้าวโพดเลี้ยงสัตว์.pdf → 15 records
+2026-04-21 19:57:27 [INFO] input_files.loader — กำลัง parse E-Book-5 ข้าวโพดหวาน.pdf (.pdf)
+2026-04-21 19:57:27 [INFO] run_pipeline —   ✓ E-Book-5 ข้าวโพดหวาน.pdf → 15 records
+2026-04-21 19:57:27 [INFO] input_files.loader — กำลัง parse rag_pdf_chunks.csv (.csv)
+2026-04-21 19:57:27 [INFO] run_pipeline —   ✓ rag_pdf_chunks.csv → 2116 records
+2026-04-21 19:57:27 [WARNING] input_files.loader — ไม่รองรับไฟล์ .jsonl — ข้าม rag_pdf_chunks.jsonl
+2026-04-21 19:57:27 [INFO] run_pipeline —   ✓ rag_pdf_chunks.jsonl → 0 records
+2026-04-21 19:57:27 [INFO] input_files.loader — กำลัง parse rag_pdf_chunks_ocr.csv (.csv)
+2026-04-21 19:57:27 [INFO] run_pipeline —   ✓ rag_pdf_chunks_ocr.csv → 2421 records
+2026-04-21 19:57:27 [WARNING] input_files.loader — ไม่รองรับไฟล์ .jsonl — ข้าม rag_pdf_chunks_ocr.jsonl
+2026-04-21 19:57:27 [INFO] run_pipeline —   ✓ rag_pdf_chunks_ocr.jsonl → 0 records
+2026-04-21 19:57:27 [INFO] input_files.loader — กำลัง parse rag_pdf_summary.csv (.csv)
+2026-04-21 19:57:27 [INFO] run_pipeline —   ✓ rag_pdf_summary.csv → 26 records
+2026-04-21 19:57:27 [INFO] input_files.loader — กำลัง parse rag_pdf_summary_ocr.csv (.csv)
+2026-04-21 19:57:27 [INFO] run_pipeline —   ✓ rag_pdf_summary_ocr.csv → 26 records
+2026-04-21 19:57:27 [INFO] run_pipeline — อ่านไฟล์เสร็จ: 4949 records รวม
+2026-04-21 19:57:28 [INFO] run_pipeline — Clean เสร็จ: 3427 valid / 1522 skipped
+2026-04-21 19:57:28 [INFO] run_pipeline — บันทึก processed records → data\processed\records.json
+2026-04-21 20:12:44 [INFO] run_pipeline — DrKaset Pipeline เริ่มต้น — step=embed
+2026-04-21 20:12:46 [INFO] run_pipeline — โหลด 3427 records จาก data\processed\records.json
+2026-04-21 20:12:46 [INFO] run_pipeline — กำลัง chunk records...
+2026-04-21 20:12:46 [INFO] rag_pipeline.chunker — Chunking เสร็จ: 3427 records → 5588 documents
+2026-04-21 20:12:46 [INFO] run_pipeline — chunk เสร็จ: 5588 chunks
+2026-04-21 20:12:46 [INFO] run_pipeline — กำลัง build FAISS index...
+2026-04-21 20:12:46 [INFO] rag_pipeline.embedder — กำลังโหลด embedding model: BAAI/bge-small-en-v1.5 (device=cpu)
+2026-04-21 20:14:37 [INFO] run_pipeline — DrKaset Pipeline เริ่มต้น — step=embed
+2026-04-21 20:14:40 [INFO] run_pipeline — โหลด 3427 records จาก data\processed\records.json
+2026-04-21 20:14:40 [INFO] run_pipeline — กำลัง chunk records...
+2026-04-21 20:14:40 [INFO] rag_pipeline.chunker — Chunking เสร็จ: 3427 records → 5588 documents
+2026-04-21 20:14:40 [INFO] run_pipeline — chunk เสร็จ: 5588 chunks
+2026-04-21 20:14:40 [INFO] run_pipeline — กำลัง build FAISS index...
+2026-04-21 20:14:40 [INFO] rag_pipeline.embedder — กำลังโหลด embedding model: BAAI/bge-small-en-v1.5 (device=cpu)
+2026-04-21 20:14:41 [INFO] sentence_transformers.SentenceTransformer — Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-04-21 20:15:18 [INFO] rag_pipeline.embedder — โหลด embedding model สำเร็จ
+2026-04-21 20:15:18 [INFO] rag_pipeline.indexer — กำลัง build FAISS index จาก 5588 documents...
+2026-04-21 20:15:18 [INFO] rag_pipeline.indexer —   Batch 1/88 (64 docs)
+2026-04-21 20:15:21 [INFO] faiss.loader — Loading faiss with AVX2 support.
+2026-04-21 20:15:21 [INFO] faiss.loader — Successfully loaded faiss with AVX2 support.
+2026-04-21 20:15:21 [INFO] rag_pipeline.indexer —   Batch 2/88 (64 docs)
+2026-04-21 20:15:24 [INFO] rag_pipeline.indexer —   Batch 3/88 (64 docs)
+2026-04-21 20:15:26 [INFO] rag_pipeline.indexer —   Batch 4/88 (64 docs)
+2026-04-21 20:15:29 [INFO] rag_pipeline.indexer —   Batch 5/88 (64 docs)
+2026-04-21 20:15:32 [INFO] rag_pipeline.indexer —   Batch 6/88 (64 docs)
+2026-04-21 20:15:35 [INFO] rag_pipeline.indexer —   Batch 7/88 (64 docs)
+2026-04-21 20:15:39 [INFO] rag_pipeline.indexer —   Batch 8/88 (64 docs)
+2026-04-21 20:15:44 [INFO] rag_pipeline.indexer —   Batch 9/88 (64 docs)
+2026-04-21 20:15:48 [INFO] rag_pipeline.indexer —   Batch 10/88 (64 docs)
+2026-04-21 20:15:52 [INFO] rag_pipeline.indexer —   Batch 11/88 (64 docs)
+2026-04-21 20:15:57 [INFO] rag_pipeline.indexer —   Batch 12/88 (64 docs)
+2026-04-21 20:16:03 [INFO] rag_pipeline.indexer —   Batch 13/88 (64 docs)
+2026-04-21 20:16:08 [INFO] rag_pipeline.indexer —   Batch 14/88 (64 docs)
+2026-04-21 20:16:11 [INFO] rag_pipeline.indexer —   Batch 15/88 (64 docs)
+2026-04-21 20:16:16 [INFO] rag_pipeline.indexer —   Batch 16/88 (64 docs)
+2026-04-21 20:16:19 [INFO] rag_pipeline.indexer —   Batch 17/88 (64 docs)
+2026-04-21 20:16:23 [INFO] rag_pipeline.indexer —   Batch 18/88 (64 docs)
+2026-04-21 20:16:27 [INFO] rag_pipeline.indexer —   Batch 19/88 (64 docs)
+2026-04-21 20:16:31 [INFO] rag_pipeline.indexer —   Batch 20/88 (64 docs)
+2026-04-21 20:16:36 [INFO] rag_pipeline.indexer —   Batch 21/88 (64 docs)
+2026-04-21 20:16:40 [INFO] rag_pipeline.indexer —   Batch 22/88 (64 docs)
+2026-04-21 20:16:44 [INFO] rag_pipeline.indexer —   Batch 23/88 (64 docs)
+2026-04-21 20:16:51 [INFO] rag_pipeline.indexer —   Batch 24/88 (64 docs)
+2026-04-21 20:17:09 [INFO] rag_pipeline.indexer —   Batch 25/88 (64 docs)
+2026-04-21 20:17:27 [INFO] rag_pipeline.indexer —   Batch 26/88 (64 docs)
+2026-04-21 20:17:44 [INFO] rag_pipeline.indexer —   Batch 27/88 (64 docs)
+2026-04-21 20:18:00 [INFO] rag_pipeline.indexer —   Batch 28/88 (64 docs)
+2026-04-21 20:18:16 [INFO] rag_pipeline.indexer —   Batch 29/88 (64 docs)
+2026-04-21 20:18:32 [INFO] rag_pipeline.indexer —   Batch 30/88 (64 docs)
+2026-04-21 20:18:49 [INFO] rag_pipeline.indexer —   Batch 31/88 (64 docs)
+2026-04-21 20:19:06 [INFO] rag_pipeline.indexer —   Batch 32/88 (64 docs)
+2026-04-21 20:19:23 [INFO] rag_pipeline.indexer —   Batch 33/88 (64 docs)
+2026-04-21 20:19:26 [INFO] rag_pipeline.indexer —   Batch 34/88 (64 docs)
+2026-04-21 20:19:29 [INFO] rag_pipeline.indexer —   Batch 35/88 (64 docs)
+2026-04-21 20:19:32 [INFO] rag_pipeline.indexer —   Batch 36/88 (64 docs)
+2026-04-21 20:19:36 [INFO] rag_pipeline.indexer —   Batch 37/88 (64 docs)
+2026-04-21 20:19:40 [INFO] rag_pipeline.indexer —   Batch 38/88 (64 docs)
+2026-04-21 20:19:46 [INFO] rag_pipeline.indexer —   Batch 39/88 (64 docs)
+2026-04-21 20:19:49 [INFO] rag_pipeline.indexer —   Batch 40/88 (64 docs)
+2026-04-21 20:20:11 [INFO] rag_pipeline.indexer —   Batch 41/88 (64 docs)
+2026-04-21 20:20:31 [INFO] rag_pipeline.indexer —   Batch 42/88 (64 docs)
+2026-04-21 20:20:49 [INFO] rag_pipeline.indexer —   Batch 43/88 (64 docs)
+2026-04-21 20:20:51 [INFO] rag_pipeline.indexer —   Batch 44/88 (64 docs)
+2026-04-21 20:21:00 [INFO] rag_pipeline.indexer —   Batch 45/88 (64 docs)
+2026-04-21 20:21:08 [INFO] rag_pipeline.indexer —   Batch 46/88 (64 docs)
+2026-04-21 20:21:15 [INFO] rag_pipeline.indexer —   Batch 47/88 (64 docs)
+2026-04-21 20:21:19 [INFO] rag_pipeline.indexer —   Batch 48/88 (64 docs)
+2026-04-21 20:21:24 [INFO] rag_pipeline.indexer —   Batch 49/88 (64 docs)
+2026-04-21 20:21:29 [INFO] rag_pipeline.indexer —   Batch 50/88 (64 docs)
+2026-04-21 20:21:35 [INFO] rag_pipeline.indexer —   Batch 51/88 (64 docs)
+2026-04-21 20:21:40 [INFO] rag_pipeline.indexer —   Batch 52/88 (64 docs)
+2026-04-21 20:21:44 [INFO] rag_pipeline.indexer —   Batch 53/88 (64 docs)
+2026-04-21 20:21:48 [INFO] rag_pipeline.indexer —   Batch 54/88 (64 docs)
+2026-04-21 20:21:53 [INFO] rag_pipeline.indexer —   Batch 55/88 (64 docs)
+2026-04-21 20:21:57 [INFO] rag_pipeline.indexer —   Batch 56/88 (64 docs)
+2026-04-21 20:22:01 [INFO] rag_pipeline.indexer —   Batch 57/88 (64 docs)
+2026-04-21 20:22:07 [INFO] rag_pipeline.indexer —   Batch 58/88 (64 docs)
+2026-04-21 20:22:12 [INFO] rag_pipeline.indexer —   Batch 59/88 (64 docs)
+2026-04-21 20:22:16 [INFO] rag_pipeline.indexer —   Batch 60/88 (64 docs)
+2026-04-21 20:22:21 [INFO] rag_pipeline.indexer —   Batch 61/88 (64 docs)
+2026-04-21 20:22:30 [INFO] rag_pipeline.indexer —   Batch 62/88 (64 docs)
+2026-04-21 20:22:40 [INFO] rag_pipeline.indexer —   Batch 63/88 (64 docs)
+2026-04-21 20:22:51 [INFO] rag_pipeline.indexer —   Batch 64/88 (64 docs)
+2026-04-21 20:23:06 [INFO] rag_pipeline.indexer —   Batch 65/88 (64 docs)
+2026-04-21 20:23:24 [INFO] rag_pipeline.indexer —   Batch 66/88 (64 docs)
+2026-04-21 20:23:40 [INFO] rag_pipeline.indexer —   Batch 67/88 (64 docs)
+2026-04-21 20:23:57 [INFO] rag_pipeline.indexer —   Batch 68/88 (64 docs)
+2026-04-21 20:24:07 [INFO] rag_pipeline.indexer —   Batch 69/88 (64 docs)
+2026-04-21 20:24:18 [INFO] rag_pipeline.indexer —   Batch 70/88 (64 docs)
+2026-04-21 20:24:36 [INFO] rag_pipeline.indexer —   Batch 71/88 (64 docs)
+2026-04-21 20:24:54 [INFO] rag_pipeline.indexer —   Batch 72/88 (64 docs)
+2026-04-21 20:25:13 [INFO] rag_pipeline.indexer —   Batch 73/88 (64 docs)
+2026-04-21 20:25:30 [INFO] rag_pipeline.indexer —   Batch 74/88 (64 docs)
+2026-04-21 20:25:49 [INFO] rag_pipeline.indexer —   Batch 75/88 (64 docs)
+2026-04-21 20:25:59 [INFO] rag_pipeline.indexer —   Batch 76/88 (64 docs)
+2026-04-21 20:26:03 [INFO] rag_pipeline.indexer —   Batch 77/88 (64 docs)
+2026-04-21 20:26:22 [INFO] rag_pipeline.indexer —   Batch 78/88 (64 docs)
+2026-04-21 20:26:26 [INFO] rag_pipeline.indexer —   Batch 79/88 (64 docs)
+2026-04-21 20:26:29 [INFO] rag_pipeline.indexer —   Batch 80/88 (64 docs)
+2026-04-21 20:26:38 [INFO] rag_pipeline.indexer —   Batch 81/88 (64 docs)
+2026-04-21 20:26:44 [INFO] rag_pipeline.indexer —   Batch 82/88 (64 docs)
+2026-04-21 20:26:47 [INFO] rag_pipeline.indexer —   Batch 83/88 (64 docs)
+2026-04-21 20:27:04 [INFO] rag_pipeline.indexer —   Batch 84/88 (64 docs)
+2026-04-21 20:27:29 [INFO] rag_pipeline.indexer —   Batch 85/88 (64 docs)
+2026-04-21 20:27:54 [INFO] rag_pipeline.indexer —   Batch 86/88 (64 docs)
+2026-04-21 20:28:03 [INFO] rag_pipeline.indexer —   Batch 87/88 (64 docs)
+2026-04-21 20:28:13 [INFO] rag_pipeline.indexer —   Batch 88/88 (20 docs)
+2026-04-21 20:28:13 [INFO] rag_pipeline.indexer — Build เสร็จ: 5588 vectors ใน index
+2026-04-21 20:28:13 [INFO] rag_pipeline.indexer — บันทึก FAISS index → data\faiss_index
+2026-04-21 20:28:13 [INFO] run_pipeline — บันทึก FAISS index → data\faiss_index
+2026-04-21 20:28:13 [INFO] run_pipeline — ✅ Embed เสร็จสมบูรณ์
+2026-04-21 20:28:13 [INFO] run_pipeline — Pipeline เสร็จสิ้น ใช้เวลา 815.7s
